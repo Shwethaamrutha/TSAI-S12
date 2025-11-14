@@ -1,0 +1,98 @@
+Training Logs - GPT-2 124M Shakespeare Model
+==============================================
+
+Configuration:
+  Batch size: 32
+  Sequence length: 256
+  Tokens per batch: 8192
+  Max iterations: 30000
+  Target loss: 0.099999
+
+Initializing model...
+Total parameters: 124,439,808 (124.44M)
+loaded 338025 tokens
+1 epoch = 41 batches
+
+Starting training...
+--------------------------------------------------------------------------------
+
+step    0 | loss: 10.948163 | lr: 3.00e-06 | time: 2061.56ms
+step   50 | loss: 6.377019 | lr: 1.53e-04 | time: 26.11ms
+step  100 | loss: 5.661868 | lr: 3.03e-04 | time: 26.24ms
+step  150 | loss: 5.275650 | lr: 4.53e-04 | time: 26.22ms
+step  200 | loss: 4.761885 | lr: 6.00e-04 | time: 26.10ms
+step  250 | loss: 4.361744 | lr: 6.00e-04 | time: 26.41ms
+step  300 | loss: 4.383677 | lr: 6.00e-04 | time: 26.23ms
+step  350 | loss: 4.227275 | lr: 6.00e-04 | time: 26.03ms
+step  400 | loss: 4.189777 | lr: 6.00e-04 | time: 26.33ms
+step  450 | loss: 3.897518 | lr: 6.00e-04 | time: 26.16ms
+step  500 | loss: 3.196751 | lr: 6.00e-04 | time: 26.08ms
+step  550 | loss: 3.231646 | lr: 6.00e-04 | time: 26.00ms
+step  600 | loss: 3.242521 | lr: 6.00e-04 | time: 26.09ms
+step  650 | loss: 2.909261 | lr: 6.00e-04 | time: 25.96ms
+step  700 | loss: 2.341274 | lr: 6.00e-04 | time: 26.29ms
+step  750 | loss: 2.416382 | lr: 6.00e-04 | time: 25.97ms
+step  800 | loss: 2.229040 | lr: 5.99e-04 | time: 25.87ms
+step  850 | loss: 2.079890 | lr: 5.99e-04 | time: 26.19ms
+step  900 | loss: 1.408641 | lr: 5.99e-04 | time: 26.21ms
+step  950 | loss: 1.446518 | lr: 5.99e-04 | time: 26.05ms
+step 1000 | loss: 1.279615 | lr: 5.99e-04 | time: 26.09ms
+Checkpoint saved at step 1000
+
+step 1050 | loss: 0.913556 | lr: 5.99e-04 | time: 26.09ms
+step 1100 | loss: 0.771903 | lr: 5.99e-04 | time: 26.20ms
+step 1150 | loss: 0.761326 | lr: 5.99e-04 | time: 26.19ms
+step 1200 | loss: 0.588458 | lr: 5.99e-04 | time: 26.13ms
+step 1250 | loss: 0.396354 | lr: 5.98e-04 | time: 28.61ms
+step 1300 | loss: 0.348152 | lr: 5.98e-04 | time: 26.10ms
+step 1350 | loss: 0.238181 | lr: 5.98e-04 | time: 26.09ms
+step 1400 | loss: 0.282539 | lr: 5.98e-04 | time: 26.14ms
+step 1450 | loss: 0.170409 | lr: 5.98e-04 | time: 26.22ms
+step 1500 | loss: 0.163224 | lr: 5.97e-04 | time: 26.25ms
+step 1550 | loss: 0.126478 | lr: 5.97e-04 | time: 26.16ms
+step 1600 | loss: 0.119280 | lr: 5.97e-04 | time: 26.31ms
+
+================================================================================
+🎉 TARGET LOSS REACHED! 🎉
+Step: 1637
+Loss: 0.095127
+Target: 0.099999
+================================================================================
+Model saved to 'model_checkpoint_final.pt'
+
+Training complete!
+Final loss: 0.095127
+
+Sample Generated Text:
+=====================
+
+Prompt: 'First Citizen:'
+Generated: First Citizen:
+Before we proceed any further, shall hauke.
+First Citizen:
+Hence let the warrant sir, sir.
+First Citizen:
+Look we have all you out:
+Me through the city
+
+Prompt: 'ROMEO:'
+Generated: ROMEO:
+Say now usurper on the sad; if he had been mine honour'd your own father 
+under ourselves: His justice; 'twere son: though most fearful removed
+heech you, against her virtue, like lighted flowers
+
+Prompt: 'To be or not'
+Generated: To be or not
+As my lord, your manifest judge received.
+CORIOLANUS:
+You are right with our holy provost!
+So do your service of my body,
+So count'd out beloved: hush! pass it shall
+
+Training Statistics:
+- Total steps: 1,637
+- Final loss: 0.095127
+- Training time: ~45-50 minutes
+- Device: CUDA (Tesla T4 GPU)
+- Model parameters: 124,439,808 (124.44M)
+
